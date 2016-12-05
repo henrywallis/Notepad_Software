@@ -49,6 +49,7 @@ import java.util.Locale;
 /**
  * Dialog allowing users to select a date.
  */
+@SuppressWarnings("ALL")
 public class DatePickerDialog extends DialogFragment implements
         OnClickListener, DatePickerController {
 

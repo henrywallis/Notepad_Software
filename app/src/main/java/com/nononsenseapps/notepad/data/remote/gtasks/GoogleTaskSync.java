@@ -49,6 +49,7 @@ import java.util.List;
 
 import retrofit.RetrofitError;
 
+@SuppressWarnings({"ALL", "JavadocReference"})
 public class GoogleTaskSync {
 	static final String TAG = "nononsenseapps gtasksync";
 	public static final boolean NOTIFY_AUTH_FAILURE = true;
@@ -278,6 +279,7 @@ public class GoogleTaskSync {
 	 * @throws JSONException
      * @param client
 	 */
+	@SuppressWarnings("JavadocReference")
 	static List<GoogleTaskList> downloadLists(final GoogleTasksClient client)
 			throws IOException, RetrofitError {
 		// Do the actual download
