@@ -40,6 +40,7 @@ public abstract class ActivityBase extends AppCompatActivity {
                     (getString(R.string.const_preference_locale_key))) {
                 onThemeOrLocaleChange();
             }
+            int test = 0;
         }
     };
 
