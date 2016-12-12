@@ -21,6 +21,7 @@ import android.app.Instrumentation;
 import android.support.v4.app.Fragment;
 import android.test.ActivityInstrumentationTestCase2;
 import android.test.suitebuilder.annotation.SmallTest;
+import android.util.Log;
 import android.view.View;
 
 import com.nononsenseapps.notepad.R;
@@ -42,6 +43,7 @@ public class FragmentTaskListsTest extends ActivityInstrumentationTestCase2<Acti
         mInstrumentation = getInstrumentation();
 
         setActivityInitialTouchMode(false);
+        Log.i("TAG1","Fragment Build");
     }
 
     protected void tearDown() throws Exception {
